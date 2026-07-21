@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Welcome Banner */
+#welcomeBanner {
+    background-color: lightblue;
+    padding: 15px;
+    text-align: center;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Gallery */
+.gallery img {
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+}
+
+.gallery caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Form */
+form {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+form label {
+    display: block;
+    margin: 10px 0;
+}
+
+form input,
+form select,
+form textarea {
+    margin-left: 10px;
+}
+
+form button {
+    margin: 10px 5px 0 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Feedback */
+#feedbackSection {
+    margin: 20px;
+}
+
+#charCount {
+    font-weight: bold;
+}
+
+/* Video */
+#videoInvite {
+    margin: 20px;
+}
+
+#videoMsg {
+    color: green;
+    font-weight: bold;
+}
+
+/* Geolocation */
+#geo {
+    margin: 20px;
+}
+
+#coords {
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
