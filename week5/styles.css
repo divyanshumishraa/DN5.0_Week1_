@@ -1,0 +1,101 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+#mainHeader {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.eventCard {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 15px;
+}
+
+/* Style for main CTA button */
+.cta-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Typography */
+.description {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+/* Links */
+a:link {
+    color: #007BFF;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: purple;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* News section multi-column */
+.news {
+    column-count: 2;
+    column-gap: 30px;
+    column-rule: 1px solid gray;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: block;
+    }
+
+    img {
+        width: 80%;
+    }
+
+    body {
+        font-size: 14px;
+    }
+}
+body {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('images/city1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
